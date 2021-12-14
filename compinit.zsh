@@ -30,7 +30,6 @@ function run-compinit() {
     # Compile zcompdump, if modified, in background to increase startup speed.
     {
         if [[ -s "$ZSH_COMPDUMP" && (! -s "${ZSH_COMPDUMP}.zwc" || "$ZSH_COMPDUMP" -nt "${ZSH_COMPDUMP}.zwc") ]]; then
-            autoload -Uz zcompile
             zcompile "$ZSH_COMPDUMP"
         fi
     } &!
