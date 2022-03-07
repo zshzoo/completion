@@ -11,7 +11,7 @@
 
 To install using a Zsh plugin manager, add the following to your .zshrc
 
-- [pz]: `pz source zshzoo/compinit`
+- [antidote]: `antidote bundle zshzoo/compinit`
 - [zcomet]: `zcomet load zshzoo/compinit`
 - [zgenom]: `zgenom load zshzoo/compinit`
 - [znap]: `znap source zshzoo/compinit`
@@ -32,7 +32,7 @@ source ${ZDOTDIR:-~}/.zplugins/compinit/compinit.zsh
 
 
 [zshzoo]: https://github.com/zshzoo/zshzoo
-[pz]: https://github.com/mattmc3/pz
+[antidote]: https://github.com/mattmc3/antidote
 [zcomet]: https://github.com/agkozak/zcomet
 [zgenom]: https://github.com/jandamm/zgenom
 [znap]: https://github.com/marlonrichert/zsh-snap
