@@ -24,7 +24,7 @@ fi
 # Autoload plugin functions.
 0=${(%):-%N}
 fpath=(${0:A:h}/functions $fpath)
-autoload -z ${0:A:h}/functions/*(.:t)
+autoload -Uz ${0:A:h}/functions/*(.:t)
 
 #
 # Options
