@@ -1,38 +1,28 @@
-# compinit
+# completion
 
 [![License](https://img.shields.io/badge/license-MIT-007EC7)](/LICENSE)
 [![built for](https://img.shields.io/badge/built%20for-%20%F0%9F%A6%93%20zshzoo-black)][zshzoo]
 
-> A smarter way to initialize Zsh completions
+> Initialize Zsh completions
 
 ## Installation
 
 ### Install with a Zsh plugin manager
 
-To install using a Zsh plugin manager, add the following to your .zshrc
-
-- [antidote]: `antidote bundle zshzoo/compinit`
-- [zcomet]: `zcomet load zshzoo/compinit`
-- [zgenom]: `zgenom load zshzoo/compinit`
-- [znap]: `znap source zshzoo/compinit`
+Follow the instructions for your preferred Zsh plugin manager to install as a plugin.
 
 ### Install manually, without a plugin manager
 
 To install manually, first clone the repo:
 
 ```zsh
-git clone https://github.com/zshzoo/compinit ${ZDOTDIR:-~}/.zplugins/compinit
+git clone https://github.com/zshzoo/completion ${ZDOTDIR:-~}/.zplugins/completion
 ```
 
 Then, in your .zshrc, add the following line:
 
 ```zsh
-source ${ZDOTDIR:-~}/.zplugins/compinit/compinit.zsh
+source ${ZDOTDIR:-~}/.zplugins/completion/completion.zsh
 ```
 
-
 [zshzoo]: https://github.com/zshzoo/zshzoo
-[antidote]: https://github.com/mattmc3/antidote
-[zcomet]: https://github.com/agkozak/zcomet
-[zgenom]: https://github.com/jandamm/zgenom
-[znap]: https://github.com/marlonrichert/zsh-snap
